@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { SocialIcon } from "react-social-icons";
 
 export default function Contact() {
@@ -12,6 +13,10 @@ export default function Contact() {
         (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
       )
       .join("&");
+  }
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
   }
 
   function handleSubmit(e) {
@@ -47,7 +52,8 @@ export default function Contact() {
               </h2>
               <p className="mt-1">
                 808 Thomson Road <br />
-                #12-20 <br />S298190
+                #12-20 <br />
+                S298190
               </p>
             </div>
             <div className="lg:w-3/5 px-6 mt-4 lg:mt-0">
@@ -64,14 +70,47 @@ export default function Contact() {
             </div>
           </div>
         </div>
-          <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
-            Work With Me:
-          </h2>
-          <div className="inline-flex py-1 px-3 my-6">
-                    <SocialIcon url="https://github.com/HypotheticalWhale" className="mr-4" target = "_blank/" fgColor="#fff" style={{height:35,width:35}} />
-                    <SocialIcon url="mailto:samueltan.9803@gmail.com" className="mr-4" target = "_blank/" fgColor="#fff" style={{height:35,width:35}}/>
-                    <SocialIcon url="https://www.linkedin.com/in/tanzhiweisamuel/" className="mr-4" target = "_blank/" fgColor="#fff" style={{height:35,width:35}}/>
+        <div>
+          <div>
+            <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
+              Work With Me:
+            </h2>
           </div>
+          <div className="inline-flex py-1 px-3 my-6">
+            <SocialIcon
+              url="https://github.com/HypotheticalWhale"
+              className="mr-4"
+              target="_blank/"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+            <SocialIcon
+              url="mailto:samueltan.9803@gmail.com"
+              className="mr-4"
+              target="_blank/"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+            <SocialIcon
+              url="https://www.linkedin.com/in/tanzhiweisamuel/"
+              className="mr-4"
+              target="_blank/"
+              fgColor="#fff"
+              style={{ height: 35, width: 35 }}
+            />
+          </div>
+          <div>
+            <a
+              download
+              //put the path of your pdf file
+              href="./Samuel Tan Zhi Wei_Resume.pdf"
+              //reactstrap classes. add green button
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            >
+              Download My Resume
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   );
