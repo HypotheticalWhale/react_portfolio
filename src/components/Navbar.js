@@ -18,9 +18,6 @@ export default function Navbar() {
           <a href="#skills" className="mr-5 hover:text-white">
             Skills
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
-          </a>
           <a className="inline-flex py-1 px-3 my-6">
                     <SocialIcon url="https://github.com/HypotheticalWhale" className="mr-4" target = "_blank/" fgColor="#fff" style={{height:35,width:35}} />
                     <SocialIcon url="mailto:samueltan.9803@gmail.com" className="mr-4" target = "_blank/" fgColor="#fff" style={{height:35,width:35}}/>

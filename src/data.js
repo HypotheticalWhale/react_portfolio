@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Portfolio",
-    subtitle: "React, Tailwind",
+    title: "Information Retrieval",
+    subtitle: "Python Pandas",
     description:
-      "This exact Project! First project used to showcase my other work!",
-    image: "./portfolio.png",
-    link: "https://github.com/HypotheticalWhale/react_portfolio",
+      "Google clone + Sentiment Analysis, search, re-index and scraping Data crawled from twitter API",
+    image: "./streamlit_icon.png",
+    link: "https://github.com/HypotheticalWhale/Streamlit_Information_Retrieval",
   },
   {
     title: "Slames",
@@ -20,14 +20,14 @@ export const projects = [
     subtitle: "React, React Native, Tailwind",
     description:
       "POC for an NFT marketplace application with a React Webapp to showcase it",
-    image: "./logo.png",
+    image: "./nft_icon.png",
     link: "https://nft-showcase-react.vercel.app",
   },
   {
     title: "Carpark Application",
     subtitle: "Andriod Studio, Java",
     description: "Calls on .gov + google maps API to find availability of nearby carparks, also shows google maps style routing.",
-    image: "./524.png",
+    image: "./carpark_icon.png",
     link: "https://github.com/HypotheticalWhale/CarparkApplication",
   },
 ];

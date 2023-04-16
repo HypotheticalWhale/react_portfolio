@@ -22,6 +22,7 @@ export default function Skills() {
                 <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
                 <span className="title-font font-medium text-white">
                   {skill}
+
                 </span>
               </div>
             </div>
