@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "Python Pandas",
     description:
       "Google clone + Sentiment Analysis, search, re-index and scraping Data crawled from twitter API",
-    image: "./streamlit_icon.png",
+    image: "./streamlit_icon.jpg",
     link: "https://github.com/HypotheticalWhale/Streamlit_Information_Retrieval",
   },
   {
@@ -27,7 +27,7 @@ export const projects = [
     title: "Carpark Application",
     subtitle: "Andriod Studio, Java",
     description: "Calls on .gov + google maps API to find availability of nearby carparks, also shows google maps style routing.",
-    image: "./carpark_icon.png",
+    image: "./carpark_icon.jpg",
     link: "https://github.com/HypotheticalWhale/CarparkApplication",
   },
 ];
