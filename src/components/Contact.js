@@ -42,19 +42,9 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.725346363041!2d103.83664991536497!3d1.341145499021858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1746ac063a67%3A0x7f247ded91adb1d8!2s808%20Thomson%20Rd%2C%20Singapore%20298190!5e0!3m2!1sen!2ssg!4v1665819686926!5m2!1sen!2ssg"
+            src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=298100&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-2/5 px-6">
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
-              </h2>
-              <p className="mt-1">
-                808 Thomson Road <br />
-                #12-20 <br />
-                S298190
-              </p>
-            </div>
             <div className="lg:w-3/5 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
